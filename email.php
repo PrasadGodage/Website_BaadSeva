@@ -24,7 +24,7 @@
         $content .= "Email: $email\n";
         $content .= "Subject: $subject\n";
         $content .= "Message: $message\n";
-        $subject = "BAAD INTERNATIONAL SERVICES PVT.LTD. New Enquirey added";
+        $subject = "Baad International Services PVT.LTD. New Enquirey added" ;
         # email headers.
         $headers = $content;
 

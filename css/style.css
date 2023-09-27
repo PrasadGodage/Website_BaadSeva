@@ -240,6 +240,7 @@
 .about-img img {
     position: relative;
     z-index: 2;
+    border-radius: 25px;
 }
 
 .about-img::before {
