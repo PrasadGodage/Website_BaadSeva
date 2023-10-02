@@ -266,7 +266,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script>
+     <script>
         $('#contact-form').on('submit', function(e) {
             console.log("Test");
             e.preventDefault();  
@@ -283,7 +283,7 @@
                 success: function (response) {
               console.log(response);
               $("#contact-form")[0].reset();
-             alert("Your Response has recorded successfull.");
+             alert("response as recorde");
                                  },
                  error: function (request, status, error) {
     console.log(request.responseText);
